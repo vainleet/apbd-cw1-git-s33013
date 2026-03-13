@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Statistics Calculator");
-Console.WriteLine("Enter numbers separated by space:");
+Console.WriteLine("Please enter numbers:");
 
 var input = Console.ReadLine();
 if (string.IsNullOrWhiteSpace(input))
