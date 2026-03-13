@@ -1,3 +1,3 @@
 # Statistics App
-Simple console app for statistics calculations.
-"Rebase demo completed." 
+
+Simple console app for statistics calculations (Sum, Average, Max, Min).
