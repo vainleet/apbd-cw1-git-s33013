@@ -31,3 +31,4 @@ public static class StatisticsHelper
     }
 }
 
+"// Refactored CalculateMin for better readability" 
