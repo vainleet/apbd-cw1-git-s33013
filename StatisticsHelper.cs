@@ -20,4 +20,10 @@ public static class StatisticsHelper
 
         return (double)Sum(values) / values.Length;
     }
+
+    public static int CalculateMax(int[] values)
+    {
+        return values.Max();
+    }
 }
+

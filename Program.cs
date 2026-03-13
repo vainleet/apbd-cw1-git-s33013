@@ -12,5 +12,6 @@ var numbers = input.Split(' ')
                    .Select(int.Parse)
                    .ToArray();
 
-var avg = StatisticsHelper.CalculateAverage(numbers);
-Console.WriteLine("Avg: " + avg);
+Console.WriteLine("Sum: " + StatisticsHelper.Sum(numbers));
+Console.WriteLine("Avg: " + StatisticsHelper.CalculateAverage(numbers));
+Console.WriteLine("Avg: " + StatisticsHelper.CalculateMax(numbers));
