@@ -18,4 +18,5 @@ var numbers = input.Split(' ')
 
 Console.WriteLine("Sum: " + StatisticsHelper.Sum(numbers));
 Console.WriteLine("Avg: " + StatisticsHelper.CalculateAverage(numbers));
-Console.WriteLine("Avg: " + StatisticsHelper.CalculateMax(numbers));
+Console.WriteLine("Max: " + StatisticsHelper.CalculateMax(numbers));
+Console.WriteLine("Min: " + StatisticsHelper.CalculateMin(numbers));
