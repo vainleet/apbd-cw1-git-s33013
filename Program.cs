@@ -7,8 +7,10 @@ if (string.IsNullOrWhiteSpace(input))
     Console.WriteLine("Input cannot be empty");
     return;
 }
+
 var numbers = input.Split(' ')
                    .Select(int.Parse)
                    .ToArray();
 
-Console.WriteLine("Sum: " + StatisticsHelper.Sum(numbers));
+var avg = StatisticsHelper.CalculateAverage(numbers);
+Console.WriteLine("Avg: " + avg);
