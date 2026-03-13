@@ -1,5 +1,9 @@
 ﻿Console.WriteLine("Statistics Calculator");
+<<<<<<< HEAD
 Console.WriteLine("Please enter numbers:");
+=======
+Console.WriteLine("Enter numbers:");
+>>>>>>> feature-conflict
 
 var input = Console.ReadLine();
 if (string.IsNullOrWhiteSpace(input))
